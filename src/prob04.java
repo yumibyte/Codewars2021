@@ -3,18 +3,19 @@ import java.io.*;
 public class prob04 {
     public static void main(String[] args) {
         try{
-            Scanner input = new Scanner(new File("input.txt"));
-            while (input.hasNextLine()){
-                float num1 = input.nextFloat();
-                float num2 = input.nextFloat();
-                if (num1 > 0) {
-                    float ans = Math.round(10 * num1 * num2) ;
-                    ans = ans / 10;
-                    System.out.println(ans);
+            Scanner input = new Scanner(new File("input.txt"));//use RELATIVE paths!
+            while (input.hasNextLine()) {
+                double in1 = input.nextFloat();
+                double in2 = input.nextFloat();
+                if (in1 + in2 != 0) {
+
+                    double j = Math.round((in1 * in2 * 10));
+                    System.out.println(j / 10);
                 }
             }
             input.close();
-        }catch(Exception e){
+
+        } catch(Exception e){
             System. out.println("error: "+e.getMessage());
         }
     }
