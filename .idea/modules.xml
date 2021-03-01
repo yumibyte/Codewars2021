@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/CodewarsInputsOutputsPython.iml" filepath="$PROJECT_DIR$/.idea/CodewarsInputsOutputsPython.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Codewars2021.iml" filepath="$PROJECT_DIR$/Codewars2021.iml" />
     </modules>
   </component>
 </project>
